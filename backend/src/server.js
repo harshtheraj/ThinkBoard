@@ -6,7 +6,7 @@ import path from "path"
 import notesRoutes from "./routes/noteRoutes.js"
 import { connectDB } from './confiq/db.js'
 //import rateLimit from './confiq/upstash.js'
-import rateLimiter from './middleware/ratelimiter.js'
+import rateLimiter from './middleware/rateLimiter.js'
 
 dotenv.config()
 
