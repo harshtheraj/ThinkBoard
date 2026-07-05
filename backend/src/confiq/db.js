@@ -6,6 +6,6 @@ export const connectDB=async ()=>{
         console.log("DB connected successfully")
     }catch(error){
         console.error("Error connecting to MONGODB",error)
-        process.exist(1) // exist with failure
+        process.exit(1) // exist with failure
     }
 }
